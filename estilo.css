@@ -1,0 +1,126 @@
+body {
+    background-color: #F5E6E9;
+    color: #51434B;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #D5A6B5;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+/* MENU */
+
+nav {
+    background-color: #91677F;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F5E6E9;
+}
+
+/* CONTENIDO */
+
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: #FFF9F7;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #B98299;
+    text-align: center;
+}
+
+h3 {
+    color: #91677F;
+}
+
+article {
+    background-color: #F8EEF0;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article img {
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* PORTADA CON IMAGEN DE FONDO */
+
+.portada {
+    background-image: url("imagenes/ariana.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.portada h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.portada p {
+    font-size: 20px;
+}
+
+/* ENLACES Y BOTONES */
+
+article a,
+.portada a {
+    background-color: #B98299;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+article a:hover,
+.portada a:hover {
+    background-color: #91677F;
+}
+
+/* LISTAS */
+
+li {
+    margin: 10px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #6F536B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
